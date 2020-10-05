@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Social media dashboard</title>
+    <!-- <link rel="stylesheet" href="light-theme.css" /> -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="background-pattern"></div>
+    <!-- Dashboard  Section-->
+    <main class="dashboard">
+      <header class="dashboard__header">
+        <div>
+          <h1 class="dashboard__header--title">Social Media Dashboard</h1>
+          <p class="dashboard__header--subtitle">Total Followers: 23,004</p>
+        </div>
+        <div class="toggle">
+          <p class="toggle__text">Dark Mode</p>
+          <label class="toggle__shape">
+            <input type="checkbox" class="toggle__shape--checkbox" />
+            <div class="toggle__shape--slider"></div>
+          </label>
+        </div>
+      </header>
+      <section class="cards">
+        <div class="card facebook">
+          <div class="card__header">
+            <img src="./images/icon-facebook.svg" alt="facebook" />
+            <span>@nathanf</span>
+          </div>
+          <div class="card__content">
+            <h3>1987</h3>
+            <span>Followers</span>
+          </div>
+          <div class="card__status">
+            <img src="./images/icon-up.svg" alt="up arrow" />
+            <span class="card__status-desc status--success">12 Today</span>
+          </div>
+        </div>
+
+        <div class="card twitter">
+          <div class="card__header">
+            <img src="./images/icon-twitter.svg" alt="twitter" />
+            <span>@nathanf</span>
+          </div>
+          <div class="card__content">
+            <h3>1044</h3>
+            <span> Followers</span>
+          </div>
+          <div class="card__status">
+            <img src="./images/icon-up.svg" alt="up arrow" />
+            <span class="card__status-desc status--success">99 Today</span>
+          </div>
+        </div>
+
+        <div class="card instagram">
+          <div class="card__header">
+            <img src="./images/icon-instagram.svg" alt="instagram" />
+            <span>@realnathanf</span>
+          </div>
+          <div class="card__content">
+            <h3>11K</h3>
+            <span> Followers</span>
+          </div>
+          <div class="card__status">
+            <img src="./images/icon-up.svg" alt="up arrow" />
+            <span class="card__status-desc status--success">1099 Today</span>
+          </div>
+        </div>
+
+        <div class="card youtube">
+          <div class="card__header">
+            <img src="./images/icon-youtube.svg" alt="youtube" />
+            <span>Nathan F.</span>
+          </div>
+          <div class="card__content">
+            <h3>8239</h3>
+            <span>Subscribers</span>
+          </div>
+          <div class="card__status">
+            <img src="./images/icon-down.svg" alt="down arrow" />
+            <span class="card__status-desc status--fail">144 Today</span>
+          </div>
+        </div>
+      </section>
+      <!-- Dashboard Overview -->
+      <section class="dashboard__overview">
+        <h1 class="dashboard__overview--title">Overview - Today</h1>
+        <div class="cards">
+          <div class="card">
+            <div class="card__header">
+              <span class="card__header--title">Page Views </span>
+              <img src="./images/icon-facebook.svg" alt="facebook" />
+            </div>
+            <div class="card__content">
+              <span>87</span>
+              <div class="card__status">
+                <img src="./images/icon-up.svg" alt="up arrow" />
+                <span class="card__status-desc status--success">3%</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card__header">
+              <span class="card__header--title"> Likes </span>
+              <img src="./images/icon-facebook.svg" alt="facebook" />
+            </div>
+            <div class="card__content">
+              <span>52</span>
+              <div class="card__status">
+                <img src="./images/icon-down.svg" alt="down arrow" />
+                <span class="card__status-desc status--fail">2%</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card__header">
+              <span class="card__header--title"> Likes </span>
+              <img src="./images/icon-facebook.svg" alt="facebook" />
+            </div>
+            <div class="card__content">
+              <span>54332</span>
+              <div class="card__status">
+                <img src="./images/icon-up.svg" alt="up arrow" />
+                <span class="card__status-desc status--success">2257%</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card__header">
+              <span class="card__header--title"> Profile Views </span>
+              <img src="./images/icon-facebook.svg" alt="facebook" />
+            </div>
+            <div class="card__content">
+              <span>52K</span>
+              <div class="card__status">
+                <img src="./images/icon-up.svg" alt="up arrow" />
+                <span class="card__status-desc status--success">1375%</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card__header">
+              <span class="card__header--title"> Retweets </span>
+              <img src="./images/icon-facebook.svg" alt="facebook" />
+            </div>
+            <div class="card__content">
+              <span>117</span>
+              <div class="card__status">
+                <img src="./images/icon-up.svg" alt="up arrow" />
+                <span class="card__status-desc status--success">303%</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card__header">
+              <span class="card__header--title"> Likes </span>
+              <img src="./images/icon-facebook.svg" alt="facebook" />
+            </div>
+            <div class="card__content">
+              <span>507</span>
+              <div class="card__status">
+                <img src="./images/icon-up.svg" alt="up arrow" />
+                <span class="card__status-desc status--success">553%</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card__header">
+              <span class="card__header--title"> Likes </span>
+              <img src="./images/icon-facebook.svg" alt="facebook" />
+            </div>
+            <div class="card__content">
+              <span>107</span>
+              <div class="card__status">
+                <img src="./images/icon-down.svg" alt="down arrow" />
+                <span class="card__status-desc status--fail">19%</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card__header">
+              <span class="card__header--title"> Total Views </span>
+              <img src="./images/icon-facebook.svg" alt="facebook" />
+            </div>
+            <div class="card__content">
+              <span>1407</span>
+              <div class="card__status">
+                <img src="./images/icon-down.svg" alt="down arrow" />
+                <span class="card__status-desc status--fail">12%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://github.com/Achraf-Elh22">ACHRAF ELHAMZAOUI</a>.
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
